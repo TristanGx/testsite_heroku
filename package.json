@@ -1,0 +1,22 @@
+{
+  "name": "testsite_heroku",
+  "version": "1.0.0",
+  "description": "a test site for heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TristanGx/testsite_heroku.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "TristanGx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TristanGx/testsite_heroku/issues"
+  },
+  "homepage": "https://github.com/TristanGx/testsite_heroku#readme"
+}
