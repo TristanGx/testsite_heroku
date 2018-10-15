@@ -5,10 +5,10 @@ app.set("port", (process.env.PORT || 5000));
 
 app.use(express.static(__dirname + "/public"))
 
-app.set("views", __dirname = "/views");
+app.set("views", __dirname + "/views");
 
 app.get("/", (req, res) => {
-    res.render("index.html")
+    res.sendFile("index.html")
 });
 
 app.listen(app.get("port"), function () {
